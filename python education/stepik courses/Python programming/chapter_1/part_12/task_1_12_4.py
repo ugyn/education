@@ -1,3 +1,5 @@
+#first
+
 shape = input()
 
 if shape == 'треугольник':
@@ -11,4 +13,5 @@ elif shape == 'круг':
     r = int(input())
     pi = 3.14
     S = pi * r ** 2
+
 print(S)
