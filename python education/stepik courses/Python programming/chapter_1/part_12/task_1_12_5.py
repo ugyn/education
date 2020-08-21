@@ -1,3 +1,19 @@
+#refactored
+
+a,b,c = int(input()), int(input()), int(input())
+
+if a < b:
+	a, b = b, a
+if a < c:
+	a, c = c, a
+if b > c:
+	b, c = c, b
+
+print(a, b, c, sep='\n')
+
+#first
+
+'''
 n1, n2, n3 = int(input()), int(input()), int(input())
 if n1 >= n2:
     if n2 >= n3:
@@ -26,14 +42,4 @@ else:
     minimal = n1
 print(maximal, minimal, average)
 
-'''
-a,b,c = int(input()), int(input()), int(input())
-
-if a < b:
-	a, b = b, a
-if a < c:
-	a, c = c, a
-if b > c:
-	b, c = c, b
-print(a, b, c, sep='\n')
 '''
