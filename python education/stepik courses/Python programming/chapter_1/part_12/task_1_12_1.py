@@ -9,13 +9,11 @@ print(S)
 
 #first
 
-'''
-from math import sqrt
+# from math import sqrt
 
-a, b, c = int(input()), int(input()), int(input())
+# a, b, c = int(input()), int(input()), int(input())
 
-p = (a + b + c) / 2
-S = sqrt(p * (p - a) * (p - b) * (p - c))
+# p = (a + b + c) / 2
+# S = sqrt(p * (p - a) * (p - b) * (p - c))
 
-print(S)
-'''
+# print(S)
