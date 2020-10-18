@@ -4,6 +4,7 @@ def create(namespace, parent):
     scopes[namespace] = {'parent': parent, 'variables': set()}
 def add(namespace, var):
     scopes[namespace]['variables'].add(var)
+
 def get(namespace, var):
     if namespace == None:
         return None
